@@ -1,0 +1,308 @@
+/* Reset some default styles for better consistency */
+body, ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* Apply styles to the header */
+.ecommerce-header {
+    background-color: #7b5771; /* Header background color */
+    color: #fff; /* Header text color */
+    padding: 10px 0;
+}
+
+.header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.logo img {
+    max-width: 100px;
+    height: auto;
+    mix-blend-mode: color-burn;
+}
+
+.main-navigation ul {
+    list-style: none;
+    display: flex;
+}
+
+.main-navigation li {
+    margin-right: 20px;
+}
+
+.main-navigation a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.user-actions a {
+    margin-left: 30px;
+    text-decoration: none;
+    color: #fff;
+    border-radius: 2px;
+    font-weight: bold;
+}
+slider-container {
+    overflow: hidden;
+    position: relative;
+    width: 100%;
+    margin: auto;
+    box-sizing: border-box;
+}
+
+/* Apply styles to the slider */
+.slider {
+    display: flex;
+    transition: transform 0.5s ease; /* Smooth slide transition */
+}
+
+/* Apply styles to individual images within the slider */
+.slider img {
+    display: flex;
+    width: 100%; /* Each image takes up 30% of the screen width */
+    height: auto;
+    padding : 0px 10px;
+}
+
+/* Responsive styling for desktop screens */
+@media screen and (max-width: 1000px) {
+    /* Adjust styles for smaller screens here */
+}
+@import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Poppins:wght@400;500;600&display=swap');
+
+
+body{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.section-heading{
+    margin-left: 70px;
+}
+
+.product-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 4%;
+}
+
+.product-card{
+    width: 15%;
+    margin: 30px 10px;
+    cursor: pointer;
+    background-color: #fff;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+}
+
+.product-image{
+    width: 100%;
+}
+
+.product-name{
+    margin: 0px;
+    text-align: left;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0.5px;
+    color: rgb(27, 25, 25);
+}
+
+.product-brand{
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: left;
+    font-size: 12px;
+    color: rgb(110, 110, 110);
+}
+
+.product-price{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 15px;
+    letter-spacing: 2px;
+    color: #009688;
+}
+
+.product-details{
+    padding  : 0px 10px;
+    padding-top : 15px;
+}
+
+@media (max-width: 718px) {
+    .product-card {
+        width: calc(50% - 60px);
+    }
+    }
+    @import url('https://fonts.googleapis.com/css2?family=Caveat&family=Montserrat&family=Poppins:wght@400;500;600&display=swap');
+
+    #product{max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    }
+    
+    *{
+        margin: 0px;
+        padding: 0px;
+        box-sizing: border-box;
+        font-family: "Montserrat", sans-serif;
+    }
+    
+    .left-column{
+        width: 40%;
+    }
+    
+    #productImg{
+        width: 100%;
+        margin-top: 50px;
+    }
+    
+    .right-column{
+        width: 60%;
+        margin-top: 80px;
+        padding-left: 30px;
+    }
+    
+    .product-description{
+        margin-bottom: 40px;
+    }
+    
+    .product-description h1 {
+        font-weight: 300;
+        font-size: 44px;
+        letter-spacing: -2px;
+    }
+    
+    .product-description h4 {
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: rgb(27, 25, 25);
+    }
+    
+    .product-description h3 {
+        margin-top: 20px;
+        font-weight: 200;
+        font-size: 20px;
+        letter-spacing: 1px;
+        color: rgb(27, 25, 25);
+    }
+    
+    .product-description h3 span {
+        color: #009688;
+        font-weight: bold;
+    }
+    
+    .product-description p {
+        margin-top: 20px;
+        font-size: 16px;
+        font-weight: 300;
+        color: #86939e;
+    }
+    
+    .product-preview .previewImg {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: left;
+        margin-top: 20px;
+    }
+    
+    .product-preview .previewImg img {
+        margin: 5px;
+        width: 15%;
+        height: 30%;
+        cursor: pointer;
+        padding: 4px;
+        border-radius: 6px;
+    }
+    
+    .active {
+        border: 2px solid #009688;
+    }
+    
+    #price{
+        color: #009688;
+        font-weight: bold;
+    }
+    footer {
+        background-color: black;
+        height: 180px;
+        padding: 30px;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+    
+    footer ul li {
+        list-style: none;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        cursor: pointer;
+    }
+    
+    footer ul li a,
+    footer ul li {
+        text-decoration: none;
+        color: #b8b8b8;
+        font-size: 12px;
+    }
+    
+    footer ul li a:hover,
+    footer ul li:hover {
+        color: #009688;
+    }
+    
+    footer ul li h3 {
+        text-decoration: none;
+        color: #dcdcdc;
+        font-size: 16px;
+        margin-bottom: 10px;
+        cursor: pointer;
+    }
+    
+    @media screen and (max-width: 600px) {
+        footer {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            height: auto;
+        }
+        footer ul {
+            width: 50%;
+            margin-bottom: 50px;
+        }
+    }
+    
+    @media screen and (max-width: 375px) {
+        footer ul {
+            width: 100%;
+            margin-bottom: 30px;
+        }
+    }
+    .add-card{
+        background-color: #009688;
+        text-decoration-color: #fff;
+        box-sizing: border-box;
+    }
+    .add-to-cart-button {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #2dc96c; /* Change the background color to your preference */
+        color: #fff; /* Text color */
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+      }
+  
+      /* Hover effect */
+      .add-to-cart-button:hover {
+        background-color: #0a223c; /* Change the hover background color */
+      }
